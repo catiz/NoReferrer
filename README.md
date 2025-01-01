@@ -5,4 +5,4 @@
 ```
 <meta name="referrer" content="no-referrer">
 ```
-在使用https://github.com/xlzy520/bilibili-img-uploader插件的时候有点用～
+在使用 https://github.com/xlzy520/bilibili-img-uploader 插件的时候有点用～
