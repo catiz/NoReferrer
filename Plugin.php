@@ -3,7 +3,7 @@
  * NoReferrer
  * @package NoReferrer
  * @author CatiZ
- * @version 1.0.0
+ * @version 1.0.1
  * @link https://www.catiz.cn
  */
 
@@ -18,6 +18,7 @@ class NoReferrer_Plugin implements Typecho_Plugin_Interface
     {
         // 添加到文章编辑页面的回调
         Typecho_Plugin::factory('admin/write-post.php')->option = array('NoReferrer_Plugin', 'renderOption');
+        Typecho_Plugin::factory('admin/write-page.php')->option = array('NoReferrer_Plugin', 'renderOption');
         // 前端输出的回调
         Typecho_Plugin::factory('Widget_Archive')->header = array('NoReferrer_Plugin', 'injectHeadCode');
         // 绑定保存文章时的回调
