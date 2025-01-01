@@ -1,0 +1,2 @@
+# NoReferrer
+控制Typecho文章页面是否添加NoReferrer
